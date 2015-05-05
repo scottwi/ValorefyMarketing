@@ -756,7 +756,7 @@ iPhone Section
 
 .iphone {
 	width: 45%;
-	background: #f3f5f8;
+	background: #F8F9FB;
 	float: left;
 	height: 100%;
 	box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1);
@@ -1238,7 +1238,7 @@ Waypoints
 }
 
 .wp3 {
-	background: url('../img/app.jpg') no-repeat center center;
+	background: url('../img/neo4j.gif') no-repeat center center;
 	background-size: 90%;
 	height: 100%;
 }

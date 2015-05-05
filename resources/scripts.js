@@ -33,6 +33,17 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 
+	$('#sendFormBtn').click(function() {
+		var formVals = $('form[name=contactForm]').serializeArray();
+		console.log($('input[name=phone]').val());
+		window.location = 'mailto:info@valorefy?body=Name: ' + $('input[name=name]').val() + '\nCompany/Organization: ' + $('input[name=co]').val() + '\nPhone: ' + $('input[name=phone]').val() + '\ndiscuss: ' + $('input[name=discuss]').val();
+		/*
+		$.post('mailto:sawilliams@msn.com?subject=Mail To Syntax with Samples&body="this is a test', function() {
+			console.log('sent?');
+		});
+		*/
+	});
+
 });
 
 /***************** Slide-In Nav ******************/
